@@ -1,0 +1,203 @@
+/* Temel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #f0f0f0;
+}
+
+/* Header (Üst Menü) */
+header {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Site Logosu ve Neon Işık Efekti */
+.logo img {
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #f5a623, 0 0 20px #f5a623, 0 0 30px #f5a623, 0 0 40px rgba(245, 166, 35, 0.3);
+}
+
+/* Cheatglobal Logo */
+.cheatglobal img {
+    height: 40px;
+}
+
+/* Neon Işık Efekti */
+.neon-text {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623, 0 0 20px #f5a623;
+}
+
+.neon-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f5a623;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s, text-shadow 0.3s;
+    box-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623;
+}
+
+.neon-button:hover {
+    background-color: #f09d1f;
+    text-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623, 0 0 20px #f5a623;
+}
+
+/* Ana İçerik */
+.main-content {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 18px;
+    color: #d3d3d3;
+    margin-bottom: 30px;
+}
+
+/* Temel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #f0f0f0;
+}
+
+/* Header (Üst Menü) */
+header {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Site Logosu ve Neon Işık Efekti */
+.logo img {
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #f5a623, 0 0 20px #f5a623, 0 0 30px #f5a623, 0 0 40px rgba(245, 166, 35, 0.3);
+}
+
+/* Cheatglobal Logo */
+.cheatglobal img {
+    height: 40px;
+}
+
+/* Ana İçerik */
+.product-announcements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.announcement-card {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 8px #f5a623, 0 0 20px #f5a623, 0 0 30px #f5a623;
+    transition: transform 0.3s;
+}
+
+.announcement-card:hover {
+    transform: scale(1.05);
+}
+
+.announcement-card h3 {
+    color: #f5a623;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.announcement-card p {
+    color: #d3d3d3;
+    font-size: 16px;
+}
+
+.pricing-options {
+    margin: 20px 0;
+    color: #f5a623;
+    font-size: 16px;
+}
+
+.pricing-options span {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Ürün Resmi */
+.announcement-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Satın Al Butonu */
+.buy-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #f5a623;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: transform 0.3s, background-color 0.3s, text-shadow 0.3s;
+    margin-top: 10px;
+    box-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623;
+}
+
+.buy-button:hover {
+    transform: scale(1.05);
+    background-color: #f09d1f;
+    text-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623, 0 0 20px #f5a623;
+}
+
+/* Alt Metin */
+.footer-text {
+    background-color: #111;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text p {
+    color: #d3d3d3;
+    max-width: 900px;
+    margin: 0 auto;
+}
