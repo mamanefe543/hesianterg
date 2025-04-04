@@ -27,11 +27,33 @@ header {
     height: 60px;
     border-radius: 10px;
     box-shadow: 0 0 8px #f5a623, 0 0 20px #f5a623, 0 0 30px #f5a623, 0 0 40px rgba(245, 166, 35, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #f5a623, 0 0 25px #f5a623, 0 0 35px #f5a623, 0 0 50px rgba(245, 166, 35, 0.5);
 }
 
 /* Cheatglobal Logo */
 .cheatglobal img {
     height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.cheatglobal img:hover {
+    transform: scale(1.1);
+}
+
+/* Discord Logo */
+.discord-logo img {
+    width: 40px; /* Discord logosunun boyutunu ayarlayabilirsiniz */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.discord-logo img:hover {
+    transform: scale(1.1); /* Hover etkisiyle logo büyür */
 }
 
 /* Neon Işık Efekti */
@@ -40,6 +62,11 @@ header {
     color: #fff;
     text-align: center;
     text-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623, 0 0 20px #f5a623;
+    transition: text-shadow 0.3s ease;
+}
+
+.neon-text:hover {
+    text-shadow: 0 0 10px #f5a623, 0 0 20px #f5a623, 0 0 30px #f5a623, 0 0 40px #f5a623;
 }
 
 .neon-button {
@@ -50,13 +77,14 @@ header {
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-    transition: background-color 0.3s, text-shadow 0.3s;
+    transition: background-color 0.3s, text-shadow 0.3s, transform 0.3s ease;
     box-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623;
 }
 
 .neon-button:hover {
     background-color: #f09d1f;
     text-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623, 0 0 20px #f5a623;
+    transform: scale(1.05);
 }
 
 /* Ana İçerik */
@@ -77,43 +105,7 @@ header {
     margin-bottom: 30px;
 }
 
-/* Temel Stil */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #141414;
-    color: #f0f0f0;
-}
-
-/* Header (Üst Menü) */
-header {
-    background-color: #111;
-    padding: 20px 0;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Site Logosu ve Neon Işık Efekti */
-.logo img {
-    height: 60px;
-    border-radius: 10px;
-    box-shadow: 0 0 8px #f5a623, 0 0 20px #f5a623, 0 0 30px #f5a623, 0 0 40px rgba(245, 166, 35, 0.3);
-}
-
-/* Cheatglobal Logo */
-.cheatglobal img {
-    height: 40px;
-}
-
-/* Ana İçerik */
+/* Ürün Duyuruları */
 .product-announcements {
     display: flex;
     justify-content: space-around;
@@ -129,11 +121,12 @@ header {
     width: 250px;
     text-align: center;
     box-shadow: 0 0 8px #f5a623, 0 0 20px #f5a623, 0 0 30px #f5a623;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .announcement-card:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 15px #f5a623, 0 0 30px #f5a623, 0 0 40px #f5a623;
 }
 
 .announcement-card h3 {
@@ -147,6 +140,7 @@ header {
     font-size: 16px;
 }
 
+/* Fiyatlandırma Seçenekleri */
 .pricing-options {
     margin: 20px 0;
     color: #f5a623;
@@ -163,6 +157,11 @@ header {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.announcement-card img:hover {
+    transform: scale(1.05);
 }
 
 /* Satın Al Butonu */
@@ -174,7 +173,7 @@ header {
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-    transition: transform 0.3s, background-color 0.3s, text-shadow 0.3s;
+    transition: transform 0.3s, background-color 0.3s, text-shadow 0.3s ease;
     margin-top: 10px;
     box-shadow: 0 0 5px #f5a623, 0 0 10px #f5a623, 0 0 15px #f5a623;
 }
