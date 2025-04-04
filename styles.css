@@ -47,7 +47,7 @@ header {
 
 /* Discord Logo */
 .discord-logo img {
-    width: 40px; /* Discord logosunun boyutunu ayarlayabilirsiniz */
+    width: 30px; /* Discord logosunun boyutunu ayarlayabilirsiniz */
     height: auto;
     transition: transform 0.3s ease;
 }
